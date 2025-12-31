@@ -31,6 +31,5 @@ public class RecipeServiceImpl implements RecipeService {
 		// TODO Auto-generated method stub
 		mapper.recipeHitIncrement(no);
 		return mapper.recipeDetailData(no);
-	}
-	
+	}	
 }
